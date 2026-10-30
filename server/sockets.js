@@ -1,4 +1,4 @@
-const { setIo: setBidIo } = require('../controllers/bidController');
+const { setIo: setBidIo } = require('./controllers/bidController');
 
 const initSockets = (io) => {
   setBidIo(io);

@@ -4,6 +4,7 @@ import { useAuth } from '../../context/AuthContext';
 
 export default function PrivateRoute({ children, role }) {
   const { user, loading } = useAuth();
+  console.log('Route check:', { user, loading, requiredRole: role });
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center">

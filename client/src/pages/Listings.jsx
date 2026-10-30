@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/shared/Navbar';
 import { listingsAPI } from '../services/api';
 import StatusBadge from '../components/shared/StatusBadge';
-import { BIOMASS_TYPES } from '../constants/biomass';
+import { BIOMASS_TYPES } from '../components/constants/biomass';
 const STATES = ['Madhya Pradesh','Uttar Pradesh','Punjab','Haryana','Maharashtra','Gujarat','Rajasthan','Bihar'];
 
 export default function Listings() {

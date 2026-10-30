@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../../components/shared/Navbar';
 import { listingsAPI } from '../../services/api';
 import toast from 'react-hot-toast';
-import { BIOMASS_TYPES } from '../../constants/biomass';
+import { BIOMASS_TYPES } from '../../components/constants/biomass';
 const STATES = ['Andhra Pradesh','Bihar','Chhattisgarh','Gujarat','Haryana','Jharkhand','Karnataka','Madhya Pradesh','Maharashtra','Odisha','Punjab','Rajasthan','Tamil Nadu','Telangana','Uttar Pradesh','West Bengal'];
 
 export default function NewListing() {

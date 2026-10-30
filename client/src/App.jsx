@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { SocketProvider } from './context/SocketContext';
-import PrivateRoute from './components/PrivateRoute';
+import PrivateRoute from './components/shared/PrivateRoute';
 
 // Public pages
 import Landing from './pages/Landing';
